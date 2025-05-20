@@ -2,7 +2,7 @@
 body {
   /* CSS Declaration */
   /* CSS Rule | Property: Value; */
-  background-color: red;
+  background-color: rgb(161, 27, 27);
 }
 
 header {
@@ -33,6 +33,11 @@ header {
 
 .hero {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+}
+
+.profil_bilde {
+
+  max-width: 55px;
 }
