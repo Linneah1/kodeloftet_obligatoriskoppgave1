@@ -37,7 +37,43 @@ header {
   align-items: center;
 }
 
+.about_me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .profil_bilde {
 
-  max-width: 55px;
+  max-width: 20%;
+}
+.project_computer {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.project_guitar {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.projectsPictures {
+  max-width: 15%;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: #7a3636;
+}
+
+
+
+.footer_github_logo {
+
+max-width: 8%;
 }
