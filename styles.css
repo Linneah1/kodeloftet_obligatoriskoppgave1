@@ -36,10 +36,18 @@ header {
   list-style-type: none;
 }
 
+
+/* INTRO/ABOUT */
+
+h1 {
+  margin-bottom: 2px;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .hero_intro {
@@ -47,11 +55,21 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .profil_bilde {
+  max-width: 30%;
+}
 
-  max-width: 20%;
+/* PROSJECTS */
+
+.project_collection {
+  padding-bottom: 50px;
+}
+
+.project_title {
+  text-align: center;
 }
 .project_computer {
   display: flex;
