@@ -2,7 +2,12 @@
 body {
   /* CSS Declaration */
   /* CSS Rule | Property: Value; */
-  background-color: rgb(161, 27, 27);
+  background-color: rgb(157, 25, 25);
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 header {
@@ -37,10 +42,11 @@ header {
   align-items: center;
 }
 
-.about_me {
+.hero_intro {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .profil_bilde {
@@ -66,12 +72,12 @@ header {
 /* FOOTER */
 
 .footer {
-  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
   text-align: center;
-  background: #7a3636;
+  background: #b67729;
 }
-
-
 
 .footer_github_logo {
 
